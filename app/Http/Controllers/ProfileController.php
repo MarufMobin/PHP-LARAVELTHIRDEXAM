@@ -31,3 +31,9 @@ class ProfileController extends Controller
         return response()->json($data, 200)->cookie($cookie);
     }
 }
+
+/* 
+    Route::get('/profile/{id}', [ProfileController::class, 'index']);
+
+    This is my Route link 
+*/
